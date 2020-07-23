@@ -1,0 +1,65 @@
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+  padding: 0 2em;
+  height: 100%;
+  color: #fff;
+}
+
+header, h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+header,
+footer,
+main {
+  color: #006680;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  font-size: 1.6em;
+  line-height: 2em;
+  background-color: #99ebff;
+  height: 250px;
+  width: 100%;
+  padding: 30px;
+}
+
+header,
+footer {
+  background-color: #1ad1ff;
+  height: 80px;
+  width: 100%;
+}
+
+footer, h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+
+.flex-container {
+  background-color: #99ebff;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.flex-items {
+  color: #006680;
+  line-height: 1.5em;
+  font-size: 1.6em;
+  background-color: #99ebff;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
